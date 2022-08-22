@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
-.name-color {
+.experience-header {
+    font-size: 40px;
+}
+
+.orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -75,3 +79,32 @@ section {
 }
 
 /* second section end */
+
+/*third section start*/
+.half-width-sec-3 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5%;
+    padding-left: 20px;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 10px right 2em;
+}
+
+#fullStack {
+    border-left: 7px solid tomato;
+}
+
+#babyWeb {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
